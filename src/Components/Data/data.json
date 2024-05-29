@@ -1,0 +1,97 @@
+[
+    {
+      "taskName": "HTML",
+      "taskDescription":"description of HTML tasks" ,
+      "status": "in progress",
+       "done" : true,
+       "assignedPersons":["Popescu", "Vasilescu", "Ionescu"]
+    },
+
+    {
+        "taskName": "CSS",
+        "taskDescription":"description of CSS tasks" ,
+        "status": "in progress",
+         "done" : true,
+         "assignedPersons":["Popescu", "Vasilescu", "Ionescu"]
+      },
+
+      {
+        "taskName": "Responsive design",
+        "taskDescription":"description of Responsive design tasks" ,
+        "status": "in progress",
+         "done" : true,
+         "assignedPersons":["Popescu", "Vasilescu", "Ionescu"]
+      },
+
+      {
+        "taskName": "HTML",
+        "taskDescription":"description of HTML tasks" ,
+        "status": "in progress",
+         "done" : false,
+         "assignedPersons":["Popescu", "Ionescu"]
+      },
+
+      {
+          "taskName": "CSS",
+          "taskDescription":"description of CSS tasks" ,
+          "status": "in progress",
+           "done" : false,
+           "assignedPersons":["Popescu"]
+        },
+
+        {
+          "taskName": "Responsive design",
+          "taskDescription":"description of Responsive design tasks" ,
+          "status": "in progress",
+           "done" : false,
+           "assignedPersons":[ "Vasilescu", "Ionescu"]
+        },
+        
+        {
+          "taskName": "HTML",
+          "taskDescription":"description of HTML tasks" ,
+          "status": "in progress",
+           "done" : true,
+           "assignedPersons":[ "Vasilescu", "Ionescu"]
+        },
+
+        {
+            "taskName": "CSS",
+            "taskDescription":"description of CSS tasks" ,
+            "status": "in progress",
+             "done" : true,
+             "assignedPersons":[ "Vasilescu", "Ionescu"]
+          },
+
+          {
+            "taskName": "Responsive design",
+            "taskDescription":"description of Responsive design tasks" ,
+            "status": "in progress",
+             "done" : true,
+             "assignedPersons":[ "Vasilescu", "Ionescu"]
+          },
+    
+          {
+            "taskName": "HTML",
+            "taskDescription":"description of HTML tasks" ,
+            "status": "in progress",
+             "done" : false,
+             "assignedPersons":[ "Vasilescu", "Ionescu"]
+          },
+    
+          {
+              "taskName": "CSS",
+              "taskDescription":"description of CSS tasks" ,
+              "status": "in progress",
+               "done" : false,
+               "assignedPersons":[ "Vasilescu"]
+            },
+
+            {
+              "taskName": "Responsive design",
+              "taskDescription":"description of Responsive design tasks" ,
+              "status": "in progress",
+               "done" : false,
+               "assignedPersons":[ "Ionescu"]
+            }
+  ]

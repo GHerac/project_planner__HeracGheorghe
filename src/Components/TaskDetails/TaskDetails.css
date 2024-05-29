@@ -1,0 +1,25 @@
+.container-task-description{
+    margin-left: 4px;
+    margin-top: 10px;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+
+.custom-datepicker{
+    width: 100px !important; /* Ensure higher specificity */
+    height: 35px !important;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 3px; 
+}
+.timeline-form{
+    justify-content: space-around;
+    align-items: center;
+    margin: 2px;
+
+    span {
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+}

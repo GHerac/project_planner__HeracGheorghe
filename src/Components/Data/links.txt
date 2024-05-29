@@ -1,0 +1,17 @@
+dumy data 
+
+https://microsoftedge.github.io/Demos/json-dummy-data/64KB-min.json
+
+look weell you can take only user info from this 
+
+https://microsoftedge.github.io/Demos/json-dummy-data/128KB.json
+
+
+or from here.. 
+    https://dummyjson.com/users
+
+    
+
+fetch('https://dummyjson.com/products/1')
+.then(res => res.json())
+.then(json => console.log(json))

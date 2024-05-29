@@ -1,0 +1,49 @@
+
+.gradient {
+    /* Linear gradient from hsl(192, 100%, 67%) to hsl(280, 87%, 65%) */
+    background: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    /* Additional styling */
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+  }
+
+.new-todo-form {
+    
+    border-radius: 8px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: 0 4px 8px grey;
+    
+    
+}
+
+.new-todo-input {
+    font-size: 16px;
+    padding: 10px;
+    border: none; /* none */
+    border-bottom: 2px solid #ddd;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+}
+
+
+.new-todo-button {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 8px;
+    width: 20%;
+    height: 10%;
+    background-color: #22ee22;
+}
+
+.check-icon {
+    fill: blue;
+  }
+  

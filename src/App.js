@@ -1,24 +1,51 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+// import { RouterProvider, createBrowserRouter } from 'react-router5'; // Assuming you're using react-router5
+
+import Main from './Components/Pages/Main';
+import Homepage from './Components/Pages/Homepage';
+import ProjectList from './Components/Pages/ProjectList';
+import TaskList from './Components/Pages/TaskList';
+
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: (
+      <Main>
+        <Homepage />
+      </Main>
+    )
+  },
+  {
+    path: '/projectlist',
+    element: (
+      <Main>
+        <ProjectList />
+      </Main>
+    )
+  },
+  {
+    path: '/tasklist',
+    element: (
+      <Main>
+        <TaskList />
+      </Main>
+    )
+  }
+]);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className="App-container">
+        <RouterProvider router={router} />
+        {/* <TodoList /> */}
+      </div>
+    
   );
 }
 
