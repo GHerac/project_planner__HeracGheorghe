@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/project_planner__HeracGheorghe/static/css/main.b4195e90.css",
+    "main.js": "/project_planner__HeracGheorghe/static/js/main.695b589f.js",
+    "static/js/453.058508f2.chunk.js": "/project_planner__HeracGheorghe/static/js/453.058508f2.chunk.js",
+    "static/media/bg-desktop-light.jpg": "/project_planner__HeracGheorghe/static/media/bg-desktop-light.3508d620efd5a52bb4ce.jpg",
+    "index.html": "/project_planner__HeracGheorghe/index.html",
+    "main.b4195e90.css.map": "/project_planner__HeracGheorghe/static/css/main.b4195e90.css.map",
+    "main.695b589f.js.map": "/project_planner__HeracGheorghe/static/js/main.695b589f.js.map",
+    "453.058508f2.chunk.js.map": "/project_planner__HeracGheorghe/static/js/453.058508f2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4195e90.css",
+    "static/js/main.695b589f.js"
+  ]
+}
