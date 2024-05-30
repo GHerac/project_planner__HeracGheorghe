@@ -1,0 +1,44 @@
+.gradient {
+    /* Linear gradient from hsl(192, 100%, 67%) to hsl(280, 87%, 65%) */
+    background: linear-gradient(to right, hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+    /* Additional styling */
+    width: 100%; /* Adjust as needed */
+    height: 100%; /* Adjust as needed */
+  }
+
+.todo-item-container {
+    
+    background: #ffffff;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 16px;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+}
+
+.buttons-container {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    gap: 2;
+}
+
+button {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.completed-button {
+    display: inline-block;
+    background-color: #22ee22;
+}
+
+.remove-button {
+    display: inline-block;
+    background-color: #ee2222;
+    margin-left: 8px;
+}
